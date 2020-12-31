@@ -50,5 +50,4 @@ foreach ($age as $key => $value) {
 	echo $value;
 	echo "<br>";
 }
-
 ?>
