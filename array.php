@@ -10,8 +10,9 @@ $total_value=count($age);//count the total number of values
 echo $total_value;
 echo "<br>";
 $c=count($my_array);
-for ($d=0; $d<=$c; $d++) { 
-	echo $my_array[$d];//dont forget to check error here
+for ($d=0; $d<$c; $d++) { 
+	echo $my_array[$d].'<br>';//dont forget to check error here
+
 }
 echo'<br>';
 //sorting of arrays
